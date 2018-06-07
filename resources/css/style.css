@@ -109,8 +109,8 @@ a{text-decoration: none;font-family: MontserratRegular}
 
 /* our pathers */
 .ourPathers{border-top:2px solid #000000;padding: 30px 0 0 0}
-.ourPathers .name{color:#2c2c2c;font-size: 22px;font-family: MontserratBold;width:300px;border:1px solid #0f0;float:left}
-.ourPathers .pathers{color:#2c2c2c;font-size: 22px;width:500px;border:1px solid #0f0;float:right;text-align: right}
+.ourPathers .name{color:#2c2c2c;font-size: 22px;font-family: MontserratBold;width:300px;float:left}
+.ourPathers .pathers{color:#2c2c2c;font-size: 22px;width:500px;float:right;text-align: right}
 .ourPathers .pathers a{width:170px;display: inline-block;margin-right: 50px}
 .ourPathers .pathers a:nth-child(2){margin-right: 0}
 .ourPathers .marginForm{margin-top: 40px}
@@ -308,6 +308,23 @@ a{text-decoration: none;font-family: MontserratRegular}
 .listContainer .articles .article .textContainer .nameArticle a{font-size: 14px;font-family: MontserratBold;color:#2c2c2c;margin:0 0 15px 0;text-transform: uppercase;border-bottom: 1px solid transparent}
 .listContainer .articles .article .textContainer .nameArticle a:hover{color:#0081f5;border-bottom: 1px solid #0081f5}
 .listContainer .articles .article .textContainer .text{font-size: 14px;font-family: MontserratThin;color:#2c2c2c;line-height: 1.5}
+/**/
+/**/
+
+/* MAP */
+/* map header */
+.mapHeaderContainer{padding: 70px 0 150px 0}
+.mapHeaderContainer .leftPart{width:590px;float:left;border:1px solid #00f}
+.mapHeaderContainer .leftPart .image{width:125px;float:left}
+.mapHeaderContainer .leftPart .text{width:430px;float:right;border:1px solid #fff}
+.mapHeaderContainer .leftPart .text .name{color:#fff;font-family: MontserratBold;font-size: 36px;margin-bottom: 20px}
+.mapHeaderContainer .leftPart .text .description{color:#fff;font-family: MontserratRegular;font-size: 14px;margin-bottom: 12px}
+.mapHeaderContainer .leftPart .text .tagline{color:#FB6533;font-family: MontserratRegular;font-size: 14px}
+.mapHeaderContainer .rightPart{width:470px;float:right;border:1px solid #fff}
+.mapHeaderContainer .rightPart .name{color:#fff;font-size: 14px;font-family: MontserratBold;text-transform: uppercase;margin-bottom: 20px}
+.mapHeaderContainer .rightPart .location{color:#fff;font-size: 14px;font-family: MontserratRegular;margin-bottom: 13px}
+.mapHeaderContainer .rightPart .sources{color:#fff;font-size: 14px;font-family: MontserratRegular;}
+.mapHeaderContainer .rightPart .sources .linkProject{display:inline-block;border:1px solid #FB6533;text-align:center;padding:5px 15px 5px 15px;color:#fff;font-size: 12px;font-family: MontserratRegular;border-radius: 5px}
 /**/
 /**/
 

@@ -15,6 +15,8 @@ a{text-decoration: none;font-family: MontserratRegular}
 /* ABOUT */
 /* header */
 .headerBg{border:1px solid #000;padding: 140px 0 150px 0;background: url("/resources/img/headerBg.png")no-repeat;background-size: cover}
+.m_headerBgIndex{padding: 70px 0 70px 0}
+.m_headerBgIndexText{text-align: left;color:#fff;font-size:36px;font-family: MontserratBold;padding-bottom: 28px}
 .generalWidth{width:1136px;margin:0 auto;border:1px solid #ccc}
 .headerBg .contentPart{width:560px;float:left;border:1px solid #17355f}
 .contentPart .exchangeRateContainer{display: flex;flex-direction: row;justify-content:space-between;margin-bottom: 30px}
@@ -185,8 +187,7 @@ a{text-decoration: none;font-family: MontserratRegular}
 .topContainer .name{width:600px;float:left;border:1px solid #0f0;font-size: 36px;color:#000;font-family: MontserratBold;padding: 50px 0 30px 0}
 .topContainer .searchContainer{width:400px;float:right;border:1px solid #0f0;padding: 50px 0 30px 0}
 .topContainer .searchContainer .searchField {position: relative}
-.topContainer .searchContainer .searchField .hideSearch{position: absolute;top:30px;right:0;left:0;height:405px;border:1px solid #0f0;border-radius: 0 0 5px 5px;z-index:10;
-    background: #fff;width:100%;padding-top: 10px}
+.topContainer .searchContainer .searchField .hideSearch{position: absolute;top:30px;right:0;left:0;max-height:405px;overflow-y:auto;border:1px solid #0f0;border-radius: 0 0 5px 5px;z-index:10;background: #fff;width:100%;padding-top: 10px;display: none}
 
 .topContainer .searchContainer .searchField .hideSearch .itemSearch .itemCon{padding: 7px 20px 0 20px}
 .topContainer .searchContainer .searchField .hideSearch .itemSearch .itemCon .line{border-bottom: 1px solid #E0E0E0;padding-top: 15px}
@@ -313,7 +314,7 @@ a{text-decoration: none;font-family: MontserratRegular}
 
 /* MAP */
 /* map header */
-.mapHeaderContainer{}
+.mapHeaderContainer{padding: 70px 0 150px 0}
 .mapHeaderContainer .leftPart{width:590px;float:left;border:1px solid #00f}
 .mapHeaderContainer .leftPart .image{width:125px;float:left}
 .mapHeaderContainer .leftPart .text{width:430px;float:right;border:1px solid #fff}
@@ -323,54 +324,46 @@ a{text-decoration: none;font-family: MontserratRegular}
 .mapHeaderContainer .rightPart{width:470px;float:right;border:1px solid #fff}
 .mapHeaderContainer .rightPart .name{color:#fff;font-size: 14px;font-family: MontserratBold;text-transform: uppercase;margin-bottom: 20px}
 .mapHeaderContainer .rightPart .location{color:#fff;font-size: 14px;font-family: MontserratRegular;margin-bottom: 13px}
-.mapHeaderContainer .rightPart .sources{color:#fff;font-size: 14px;font-family: MontserratRegular;margin-bottom: 13px}
-.mapHeaderContainer .rightPart .sources .socialLink{display: inline-block;width:18px;height:18px;margin:0 5px 0 0;position: relative;top:4px}
-.mapHeaderContainer .rightPart .sources .socialLink:nth-child(1){margin-left: 10px}
-.mapHeaderContainer .rightPart .sources .socialLink img{width: 100%}
-.mapHeaderContainer .rightPart .sources .linkProject:nth-child(1){margin-left: 20px}
-.mapHeaderContainer .rightPart .sources .linkProject{display:inline-block;border:1px solid #FB6533;text-align:center;padding:5px 15px 5px 15px;color:#fff;font-size: 12px;font-family: MontserratRegular;border-radius: 5px;margin-right: 10px}
-.mapHeaderContainer .rightPart .tracing{color:#fff;font-size: 14px;font-family: MontserratRegular}
-.mapHeaderContainer .rightPart .tracing a{color:#FB6533;font-size: 14px;font-family: MontserratRegular;margin-left: 3px;margin-top: 10px}
+.mapHeaderContainer .rightPart .sources{color:#fff;font-size: 14px;font-family: MontserratRegular;}
+.mapHeaderContainer .rightPart .sources .linkProject{display:inline-block;border:1px solid #FB6533;text-align:center;padding:5px 15px 5px 15px;color:#fff;font-size: 12px;font-family: MontserratRegular;border-radius: 5px}
+/**/
 /**/
 
-/* menu map */
-.menuMapBg{background: #4F4F4F}
-.menuMapBg .mapLink{color:#fff;font-family: MontserratSemiBold;font-size: 16px;padding: 17px 30px 16px 30px;border-bottom: 5px solid #4F4F4F}
-.menuMapBg .mapLink:nth-child(1){padding: 17px 30px 16px 0}
-.menuMapBg .mapLink:hover{color:#56CCF2;font-family: MontserratSemiBold;font-size: 16px;padding: 17px 20px 16px 20px;border-bottom: 5px solid #56CCF2}
-/**/
+/*  header  */
+.m_systemHeaderCover{}
+.m_systemHeaderCover .generalWidth{padding: 25px 0 20px 0}
 
-/* details */
-.detailContainer{padding: 60px 0 0 0}
-.detailContainer .name{font-size: 36px;color:#000;font-family: MontserratBold;width:320px;border:1px solid #000;float:left;margin-right: 70px}
-.detailContainer .favorites{font-size: 12px;color:#FB6533;font-family: MontserratRegular;width:160px;float:left;border: 1px solid #FB6533;border-radius: 5px;padding: 12px 25px 14px 25px;cursor: pointer;margin-top: 20px}
-.detailContainer .favorites span{position: relative;padding-left: 20px}
-.detailContainer .favorites span:before{content: "";position: absolute;top:2px;left:0;width:10px;height:12px;background: url("/resources/img/favorites.png")no-repeat;background-size: cover}
-.detailContainer .subname{font-size: 14px;font-family: MontserratBold;color:#000;text-transform: uppercase;margin: 5px 0 15px 0}
-.detailContainer .text{font-size: 14px;color:#000;font-family: MontserratRegular;line-height: 1.5;width:760px}
-/**/
+.m_headerLogo{display: block;float:left;width:130px;height:40px;background: url(../img/header_logo.png)no-repeat;background-size: contain;background-position: left center}
 
-/* roadmap */
-.methodologyContainer .nameRoad{font-size: 36px;color:#000;font-family: MontserratBold;margin-top: 80px}
-/**/
+.m_systemNavCover{float:left;margin-left:6%;padding-top: 5px}
+.m_systemNavItem{display: inline-block;color:#000;font-family: MontserratMedium;font-size: 12px;text-transform: uppercase;padding: 8px 17px 8px 17px;position: relative;transition: .2s}
+.m_systemNavItem[data-active=true], .m_systemNavItem:hover{color:#FB6533;transition: .2s}
+.m_systemNavItem:after{content:"";position: absolute;bottom:0;left:0;right:0;width:100%;background: #FB6533;height:3px;opacity:0;transition: opacity 200ms}
+.m_systemNavItem[data-active=true]:after, .m_systemNavItem:hover:after{opacity: 1}
 
-/* description tokens */
-.tokensDesription .name{font-size: 36px;color:#000;font-family: MontserratBold;margin-bottom: 70px}
-.tokensDesription .item:nth-child(1){width: 28%;margin-right: 4%;float:left}
-.tokensDesription .item:nth-child(2){width: 28%;margin-right: 4%;float:left}
-.tokensDesription .item:nth-child(3){width: 36%;float:left}
-.tokensDesription .item .textContainer{margin-bottom: 40px}
-.tokensDesription .item .textContainer .title{font-size: 14px;color:#000;font-family: MontserratBold;text-transform: uppercase;margin-bottom: 10px}
-.tokensDesription .item .textContainer .text{font-size: 14px;color:#000;font-family: MontserratRegular;line-height: 1.5}
-.tokensDesription .item .textContainer .text ol{margin-top: 10px;font-size: 14px;color:#000;font-family: MontserratRegular;line-height: 1.5}
-.tokensDesription .item .textContainer .text ol li{margin-left: 16px;margin-bottom: 7px}
-/**/
+.m_systemChangeLang{float:right;padding-top: 10px}
+.m_systemChangeLang:hover{text-decoration: underline}
+.m_systemChangeLang a{display: block;text-transform: uppercase;font-size: 12px;padding: 3px 0 3px 0;color:#000}
 
-/**/
+.m_systemUserAuth{float:right;padding-top: 10px;padding-right: 30px}
+.m_systemUserAuthLogin{font-size: 12px;color:#000;padding: 3px 0 4px 0}
+.m_systemUserAuthSign{color:#FB6533;font-size: 12px;padding: 3px 0 4px 0}
+.m_systemUserAuthLogin:hover, .m_systemUserAuthSign:hover{text-decoration: underline}
+.m_systemHeaderSearch{float:right;width:190px;position: relative;margin: 6px 35px 0 0}
 
+.m_systemHeaderSearchInput{display: block;width: 100%;border:1px solid #000;border-radius: 6px;padding: 5px 35px 5px 15px;font-size: 12px;font-family: MontserratMedium}
 
+.m_systemHeaderSearchInput::-webkit-input-placeholder{color:#000;opacity: 1;transition: opacity 300ms}
+.m_systemHeaderSearchInput:-moz-placeholder{color:#000;opacity: 1;transition: opacity 300ms}
+.m_systemHeaderSearchInput::-moz-placeholder{color:#000;opacity: 1;transition: opacity 300ms}
+.m_systemHeaderSearchInput:-ms-input-placeholder{color:#000;opacity: 1;transition: opacity 300ms}
 
+.m_systemHeaderSearchInput:focus::-webkit-input-placeholder{opacity: 0}
+.m_systemHeaderSearchInput:focus:-moz-placeholder{opacity: 0}
+.m_systemHeaderSearchInput:focus::-moz-placeholder{opacity: 0}
+.m_systemHeaderSearchInput:focus:-ms-input-placeholder{opacity: 0}
 
+.m_systemHeaderSearchButton{display: inline-block;position:absolute;top:0;right:0;cursor: pointer;height:100%;width:35px;background: url(../img/header_search_icon.png)no-repeat;background-size: 15px;background-position: center center}
 
 
 

@@ -313,7 +313,7 @@ a{text-decoration: none;font-family: MontserratRegular}
 
 /* MAP */
 /* map header */
-.mapHeaderContainer{padding: 70px 0 150px 0}
+.mapHeaderContainer{}
 .mapHeaderContainer .leftPart{width:590px;float:left;border:1px solid #00f}
 .mapHeaderContainer .leftPart .image{width:125px;float:left}
 .mapHeaderContainer .leftPart .text{width:430px;float:right;border:1px solid #fff}
@@ -323,9 +323,49 @@ a{text-decoration: none;font-family: MontserratRegular}
 .mapHeaderContainer .rightPart{width:470px;float:right;border:1px solid #fff}
 .mapHeaderContainer .rightPart .name{color:#fff;font-size: 14px;font-family: MontserratBold;text-transform: uppercase;margin-bottom: 20px}
 .mapHeaderContainer .rightPart .location{color:#fff;font-size: 14px;font-family: MontserratRegular;margin-bottom: 13px}
-.mapHeaderContainer .rightPart .sources{color:#fff;font-size: 14px;font-family: MontserratRegular;}
-.mapHeaderContainer .rightPart .sources .linkProject{display:inline-block;border:1px solid #FB6533;text-align:center;padding:5px 15px 5px 15px;color:#fff;font-size: 12px;font-family: MontserratRegular;border-radius: 5px}
+.mapHeaderContainer .rightPart .sources{color:#fff;font-size: 14px;font-family: MontserratRegular;margin-bottom: 13px}
+.mapHeaderContainer .rightPart .sources .socialLink{display: inline-block;width:18px;height:18px;margin:0 5px 0 0;position: relative;top:4px}
+.mapHeaderContainer .rightPart .sources .socialLink:nth-child(1){margin-left: 10px}
+.mapHeaderContainer .rightPart .sources .socialLink img{width: 100%}
+.mapHeaderContainer .rightPart .sources .linkProject:nth-child(1){margin-left: 20px}
+.mapHeaderContainer .rightPart .sources .linkProject{display:inline-block;border:1px solid #FB6533;text-align:center;padding:5px 15px 5px 15px;color:#fff;font-size: 12px;font-family: MontserratRegular;border-radius: 5px;margin-right: 10px}
+.mapHeaderContainer .rightPart .tracing{color:#fff;font-size: 14px;font-family: MontserratRegular}
+.mapHeaderContainer .rightPart .tracing a{color:#FB6533;font-size: 14px;font-family: MontserratRegular;margin-left: 3px;margin-top: 10px}
 /**/
+
+/* menu map */
+.menuMapBg{background: #4F4F4F}
+.menuMapBg .mapLink{color:#fff;font-family: MontserratSemiBold;font-size: 16px;padding: 17px 30px 16px 30px;border-bottom: 5px solid #4F4F4F}
+.menuMapBg .mapLink:nth-child(1){padding: 17px 30px 16px 0}
+.menuMapBg .mapLink:hover{color:#56CCF2;font-family: MontserratSemiBold;font-size: 16px;padding: 17px 20px 16px 20px;border-bottom: 5px solid #56CCF2}
+/**/
+
+/* details */
+.detailContainer{padding: 60px 0 0 0}
+.detailContainer .name{font-size: 36px;color:#000;font-family: MontserratBold;width:320px;border:1px solid #000;float:left;margin-right: 70px}
+.detailContainer .favorites{font-size: 12px;color:#FB6533;font-family: MontserratRegular;width:160px;float:left;border: 1px solid #FB6533;border-radius: 5px;padding: 12px 25px 14px 25px;cursor: pointer;margin-top: 20px}
+.detailContainer .favorites span{position: relative;padding-left: 20px}
+.detailContainer .favorites span:before{content: "";position: absolute;top:2px;left:0;width:10px;height:12px;background: url("/resources/img/favorites.png")no-repeat;background-size: cover}
+.detailContainer .subname{font-size: 14px;font-family: MontserratBold;color:#000;text-transform: uppercase;margin: 5px 0 15px 0}
+.detailContainer .text{font-size: 14px;color:#000;font-family: MontserratRegular;line-height: 1.5;width:760px}
+/**/
+
+/* roadmap */
+.methodologyContainer .nameRoad{font-size: 36px;color:#000;font-family: MontserratBold;margin-top: 80px}
+/**/
+
+/* description tokens */
+.tokensDesription .name{font-size: 36px;color:#000;font-family: MontserratBold;margin-bottom: 70px}
+.tokensDesription .item:nth-child(1){width: 28%;margin-right: 4%;float:left}
+.tokensDesription .item:nth-child(2){width: 28%;margin-right: 4%;float:left}
+.tokensDesription .item:nth-child(3){width: 36%;float:left}
+.tokensDesription .item .textContainer{margin-bottom: 40px}
+.tokensDesription .item .textContainer .title{font-size: 14px;color:#000;font-family: MontserratBold;text-transform: uppercase;margin-bottom: 10px}
+.tokensDesription .item .textContainer .text{font-size: 14px;color:#000;font-family: MontserratRegular;line-height: 1.5}
+.tokensDesription .item .textContainer .text ol{margin-top: 10px;font-size: 14px;color:#000;font-family: MontserratRegular;line-height: 1.5}
+.tokensDesription .item .textContainer .text ol li{margin-left: 16px;margin-bottom: 7px}
+/**/
+
 /**/
 
 
